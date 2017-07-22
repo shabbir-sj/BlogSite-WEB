@@ -1,0 +1,109 @@
+.post {
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	cursor: pointer;
+}
+
+.post__pic {
+	flex: 0 0 80px;
+	margin: 5px;
+	height: 80px;
+	background-color: rgb(0, 188, 212);
+}
+
+.post__info_container {
+	margin: 5px 10px;
+}
+
+.post__title {
+	margin-bottom: 5px;
+	font-size: 16pt;
+	font-weight: 500;
+}
+
+.post__author {
+	font-size: 10pt;
+	color: #555555;
+	margin-bottom: 5px;
+}
+
+.post__desc {
+	font-size: 12pt;
+}
+
+.post_list {
+	max-width: 730px;
+	margin: 40px auto;
+}
+
+.post_list__header {
+	padding: 8px 15px;
+	font-size: 25pt;
+	color: #616161;
+}
+
+.post_page {
+	max-width: 700px;
+	margin: 50px auto;
+}
+
+.post_page__title {
+	padding: 0 10px 10px;
+	letter-spacing: 0.7px;
+    line-height: 1.5;
+	font-size: 30pt;
+	color: #616161;
+}
+
+.post_detail {
+	margin: 10px;
+	padding: 20px;
+}
+
+.post_detail__desc {
+	margin: 20px 0;
+	letter-spacing: 0.7px;
+	line-height: 1.5;
+	font-size: 14pt;
+	color: #515151;
+}
+
+.post_detail__author {
+	margin: 20px 0;
+	font-size: 12pt;
+	color: #616161;
+	text-align: right;
+}
+
+.post_form_page {
+	margin: 0 auto;
+	padding: 25px;
+	max-width: 600px;
+}
+
+.post_form {
+	position: relative;
+	padding: 25px 25px 50px;
+	background-color: white;
+}
+
+.post_form__title {
+	text-align: center;
+	padding: 25px 0;
+	font-size: 26pt;
+	color: #616161;
+}
+
+.post_form__submit {
+	text-align: right;
+	padding-top: 45px;
+}
+
+.post_form__title_area {
+	margin: 20px 0;
+}
+
+.post_form__desc_area {
+	margin: 20px 0;
+}

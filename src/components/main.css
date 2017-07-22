@@ -1,0 +1,8 @@
+.navbar__title {
+	color: gainsboro;
+	text-decoration: none;
+}
+
+.navbar__title:hover {
+	color: white;
+}

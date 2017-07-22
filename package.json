@@ -1,0 +1,42 @@
+{
+  "name": "materiald",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "node index.js",
+    "dev": "webpack -d --watch | serve ./public"
+  },
+  "author": "Shabbir Hussain Bohra",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.15.3",
+    "serve": "^5.1.5",
+    "webpack": "^2.6.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "es6-promise": "^4.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "material-ui": "^0.18.1",
+    "prop-types": "^15.5.10",
+    "query-string": "^4.3.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.18.1"
+  }
+}
