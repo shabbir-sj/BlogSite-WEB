@@ -5,7 +5,7 @@ polyfill();
 
 import { getAuthToken } from './auth-service'
 
-const baseURL = 'http://0.0.0.0:8005/';
+const baseURL = 'http://54.186.53.243:8080/';
 
 export const REQUEST = 'REQUEST';
 export const RESPONSE = 'RESPONSE';
